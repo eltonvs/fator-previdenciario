@@ -7,10 +7,8 @@ idade = int(input("Digite a idade que você começou a trabalhar: "))
 soma = idade
 
 #Define o a soma final (idade + tempo de contribuição) de acordo com o sexo informado
-if sexo.upper() == "M":
-	tempo = 95
-else:
-	tempo = 85
+
+tempo = 95 if (sexo.upper() == "M") else 85 
 
 while soma <= tempo:
 	#Adiciona mais um ano à idade
