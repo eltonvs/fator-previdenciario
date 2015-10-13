@@ -5,7 +5,6 @@ sexo = input("Informe o sexo [M/F]: ")
 idade = int(input("Digite a idade que você começou a trabalhar: "))
 #Soma = idade que iniciou a contibuir + tempo de contribuição inicial (0)
 soma = idade
-
 #Define o a soma final (idade + tempo de contribuição) de acordo com o sexo informado
 
 tempo = 95 if (sexo.upper() == "M") else 85 
