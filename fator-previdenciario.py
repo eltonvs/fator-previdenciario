@@ -10,10 +10,10 @@ soma = idade
 tempo = 95 if (sexo.upper() == "M") else 85 
 
 while soma <= tempo:
-	#Adiciona mais um ano à idade
-	idade += 1
-	#Adiciona 2 à soma (1 da idade e 1 do tempo de contribuição)
-	soma += 2
+    #Adiciona mais um ano à idade
+    idade += 1
+    #Adiciona 2 à soma (1 da idade e 1 do tempo de contribuição)
+    soma += 2
 
 #Mostra o texto na tela
 print ("Você poderá se aposentar com %d anos de idade" %idade)
