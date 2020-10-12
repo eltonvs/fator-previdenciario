@@ -16,4 +16,4 @@ while soma <= tempo:
     soma += 2
 
 #Mostra o texto na tela
-print ("Você poderá se aposentar com %d anos de idade" %idade)
+print(f"Você poderá se aposentar com {idade} anos de idade")
